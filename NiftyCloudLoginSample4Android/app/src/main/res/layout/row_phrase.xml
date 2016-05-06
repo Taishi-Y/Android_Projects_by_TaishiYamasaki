@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_rounded_corners_5dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="3dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/iv_user"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="UserName"
+            android:id="@+id/tv_username"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/iv_user"
+            android:layout_toEndOf="@+id/iv_user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ふぁlfじゃ"
+            android:id="@+id/tv_japanese"
+            android:layout_below="@+id/tv_username"
+            android:layout_alignLeft="@+id/tv_username"
+            android:layout_alignStart="@+id/tv_username" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="bla bla bla"
+            android:id="@+id/tv_phrase"
+            android:layout_below="@+id/tv_japanese"
+            android:layout_alignLeft="@+id/tv_japanese"
+            android:layout_alignStart="@+id/tv_japanese" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_phrase"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!---->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:text="bla bla bla"-->
+            <!--android:layout_below="@+id/tv_username"-->
+            <!--android:layout_alignLeft="@+id/tv_username"-->
+            <!--android:layout_alignStart="@+id/tv_username"-->
+             <!--/>-->
+
+        </RelativeLayout>
+
+</RelativeLayout>

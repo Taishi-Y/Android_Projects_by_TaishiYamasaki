@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">My Language Sensei</string>
+    <string name="title_activity_input">InputActivity</string>
+    <string name="title_activity_input_yesterday">InputYesterdayActivity</string>
+
+
+    <!-- Strings related to KEY -->
+    <string name="facebook_app_id">221745204850104</string>
+
+    <string name="fabric_app_id">96b84618f2139e9eadcfdfec48a8457e6829b5c9</string>
+    <string name="twitter_app_key">27BFn1JcZbpXyQKcRTBkX3tQD</string>
+    <string name="twitter_app_secret">SjHqMfMKJVQbic8yaqLI1C5HsCp3NqUvQPWWv9uowdLh2lXkm0</string>
+    <!--<string name="ncmb_app_key">14bb78b93c53c76007314476f62013b322fcad10bd227ed48227dea4aab674f0</string>-->
+    <!--<string name="ncmb_app_client">a744085c36f7c46c60e853f6c4483d514d6e4536d99da830759d69a556b9abd5</string>-->
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+
+
+    <!-- Strings related to InitialScreen -->
+    <string name="action_login_sign_up">Log in / Sign in</string>
+    <string name="initial_sign_up_facebook">Sign up with Facebook</string>
+    <string name="initial_sign_up_twitter">Sign up with Twitter</string>
+    <string name="initial_sign_up">Sign up</string>
+    <string name="initial_login">Log In</string>
+
+
+    <!-- Strings related to LogInActivity -->
+    <string name="login_login_button">LOG IN</string>
+
+    <!-- Strings related to SignUpActivity -->
+    <string name="signup_signup_button">Sign up</string>
+
+
+    <string name="main_logout">Log out</string>
+
+    <string name="action_sign_in">Sign up</string>
+
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_confirm_password">This password is different</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_home">My Language Sensei</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">TestActivity</string>
+
+
+</resources>

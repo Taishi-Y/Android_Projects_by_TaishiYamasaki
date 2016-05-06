@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- 検索 -->
+    <!--<item-->
+        <!--android:id="@+id/menu_search"-->
+        <!--android:icon="@drawable/ic_search_white_24dp"-->
+        <!--android:title="検索"-->
+        <!--yourapp:showAsAction="always"-->
+        <!--android:orderInCategory="100"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/menu_search"-->
+        <!--android:icon="@drawable/ic_search_white_24dp"-->
+        <!--android:title="検索"-->
+        <!--yourapp:showAsAction="always"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView" />-->
+
+        <!-- 投稿 -->
+        <item
+            android:id="@+id/menu_post"
+            android:icon="@drawable/ic_border_color_white_24dp"
+            android:title="投稿"
+            yourapp:showAsAction="always"/>
+
+
+        <item android:id="@+id/menu"
+              android:title="@string/main_logout" >
+            <!--submenu-->
+            <item  android:id="@+id/profile"
+                    android:title="profile"/>
+            <!--<item  android:id="@+id/setting"-->
+                    <!--android:title="setting"/>-->
+            <!--<item  android:id="@+id/review"-->
+                    <!--android:title="review"/>-->
+            <item  android:id="@+id/logout"
+                android:title="log out"/>
+        </item>
+
+</menu>
