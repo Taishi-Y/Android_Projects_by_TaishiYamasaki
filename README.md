@@ -1,3 +1,3 @@
 # AndroidSampleProjects_by_TaishiYamasaki
 
-* AlertDialog
+#### See snippets [Wiki](https://github.com/Taishi-Y/AndroidSampleProjects_by_TaishiYamasaki/wiki "Wiki")
