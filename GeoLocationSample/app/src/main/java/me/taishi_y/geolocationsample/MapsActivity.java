@@ -136,7 +136,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //経度の表示
         lngDouble = location.getLongitude();
         String lngString = String.valueOf(location.getLongitude());
-        Toast.makeText(getApplicationContext(), "緯度:" + latString + "" + "\n" + "経度" + lngString, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "緯度:" + latString + "" + "\n" + "経度" + lngString, Toast.LENGTH_LONG).show();
 
         LatLng myPlace = new LatLng(latDouble, lngDouble);
         mMap.addMarker(new MarkerOptions().position(myPlace).title("Marker in MyPlace"));

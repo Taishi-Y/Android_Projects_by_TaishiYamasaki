@@ -23,18 +23,3 @@ public class MyApplication extends Application {
         return MyApplication.mContext;
     }
 }
-
-//public class MyApplication extends Application {
-//
-//    private static Context context;
-//
-//    public void onCreate(){
-//        super.onCreate();
-//        this.context
-//        MyApplication.context = getApplicationContext();
-//    }
-//
-//    public static Context getAppContext() {
-//        return MyApplication.context;
-//    }
-//}
