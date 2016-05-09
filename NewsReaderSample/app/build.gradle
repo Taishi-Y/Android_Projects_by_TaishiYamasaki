@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "me.taishi.NewsReaderSample"
+        minSdkVersion 11
+        targetSdkVersion 21
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:cardview-v7:21.0.3'
+    compile 'com.android.support:recyclerview-v7:21.0.3'
+    compile "com.squareup.picasso:picasso:2.4.0"
+
+    compile 'com.google.android.gms:play-services:6.+'
+
+    //html Parser
+    compile 'org.jsoup:jsoup:1.7.3'
+}

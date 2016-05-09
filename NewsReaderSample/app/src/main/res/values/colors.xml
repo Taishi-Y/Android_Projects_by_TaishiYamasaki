@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CYAN -->
+    <!-- dark -->
+    <color name="md_cyan_500_primary">#2ecc71</color>
+    <!-- light -->
+    <color name="md_cyan_50">#E0F7FA</color>
+    <color name="md_cyan_100">#B2EBF2</color>
+    <color name="md_cyan_200">#80DEEA</color>
+    <color name="md_cyan_300">#4DD0E1</color>
+    <color name="md_cyan_400">#26C6DA</color>
+    <!-- dark -->
+    <color name="md_cyan_600">#00ACC1</color>
+    <color name="md_cyan_700">#27ae60</color>
+    <color name="md_cyan_800">#00838F</color>
+    <color name="md_cyan_900">#006064</color>
+
+    <!-- light -->
+    <color name="md_cyan_A100">#84FFFF</color>
+    <color name="md_cyan_A200">#18FFFF</color>
+    <color name="md_cyan_A400">#00E5FF</color>
+    <color name="md_cyan_A700">#00B8D4</color>
+</resources>

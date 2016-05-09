@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   >
+    
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        ></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#333" >
+
+        <Button
+            android:id="@+id/drawer_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="drawer button" />
+    </LinearLayout>
+
+</LinearLayout>
